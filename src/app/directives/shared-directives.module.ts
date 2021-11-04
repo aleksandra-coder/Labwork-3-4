@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HideHeaderDirective } from './hide-header.directive';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    HideHeaderDirective
+  ],
   imports: [
     CommonModule
   ]
